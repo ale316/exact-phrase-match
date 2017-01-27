@@ -28,7 +28,7 @@ class PhraseTree:
         else:
             word = phrase.pop(0)
             if word in tree:
-                return self._find(tree[word], phrase)
+                return self._has(tree[word], phrase)
             else: return False
 
     def has(self, phrase):
