@@ -1,1 +1,1 @@
-# from .exact_phrase import ExactPhraseIndex
+from ExactPhraseIndex import *
